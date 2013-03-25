@@ -1,3 +1,5 @@
+
+
 //
 //  main.m
 //  ObjectiveC
@@ -8,17 +10,13 @@
 
 #import <Foundation/Foundation.h>
 
+#warning 把代码拷贝到main.m文件, 然后把"main_19_11"改为"main"即可运行
 int main(int argc, const char * argv[])
 {
-
+    
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-        // Tiehui.Lu 修改纪录
-        
+                        
     }
     return 0;
 }
-
