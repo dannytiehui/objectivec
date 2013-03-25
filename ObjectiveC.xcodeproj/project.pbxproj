@@ -11,6 +11,7 @@
 		46A34BCA16FFF283006815EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BC916FFF283006815EA /* main.m */; };
 		46A34BCE16FFF283006815EA /* ObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46A34BCD16FFF283006815EA /* ObjectiveC.1 */; };
 		46A34BDA16FFFC19006815EA /* prog1.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BD916FFFC19006815EA /* prog1.m */; };
+		46A34BDF17000145006815EA /* NSObject+prog19.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BDE17000145006815EA /* NSObject+prog19.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		46A34BCD16FFF283006815EA /* ObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjectiveC.1; sourceTree = "<group>"; };
 		46A34BD816FFFC19006815EA /* prog1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prog1.h; sourceTree = "<group>"; };
 		46A34BD916FFFC19006815EA /* prog1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prog1.m; sourceTree = "<group>"; };
+		46A34BDD17000145006815EA /* NSObject+prog19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+prog19.h"; sourceTree = "<group>"; };
+		46A34BDE17000145006815EA /* NSObject+prog19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+prog19.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 			children = (
 				46A34BD816FFFC19006815EA /* prog1.h */,
 				46A34BD916FFFC19006815EA /* prog1.m */,
+				46A34BDD17000145006815EA /* NSObject+prog19.h */,
+				46A34BDE17000145006815EA /* NSObject+prog19.m */,
 			);
 			name = Chapter;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			files = (
 				46A34BCA16FFF283006815EA /* main.m in Sources */,
 				46A34BDA16FFFC19006815EA /* prog1.m in Sources */,
+				46A34BDF17000145006815EA /* NSObject+prog19.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
