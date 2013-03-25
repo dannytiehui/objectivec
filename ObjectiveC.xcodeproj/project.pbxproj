@@ -10,7 +10,6 @@
 		46A34BC716FFF283006815EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A34BC616FFF283006815EA /* Foundation.framework */; };
 		46A34BCA16FFF283006815EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BC916FFF283006815EA /* main.m */; };
 		46A34BCE16FFF283006815EA /* ObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46A34BCD16FFF283006815EA /* ObjectiveC.1 */; };
-		46A34BD716FFF9FA006815EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BD616FFF9FA006815EA /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +31,6 @@
 		46A34BC916FFF283006815EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46A34BCC16FFF283006815EA /* ObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		46A34BCD16FFF283006815EA /* ObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjectiveC.1; sourceTree = "<group>"; };
-		46A34BD516FFF9FA006815EA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		46A34BD616FFF9FA006815EA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +92,6 @@
 		46A34BD416FFF995006815EA /* Chapter */ = {
 			isa = PBXGroup;
 			children = (
-				46A34BD516FFF9FA006815EA /* ViewController.h */,
-				46A34BD616FFF9FA006815EA /* ViewController.m */,
 			);
 			name = Chapter;
 			sourceTree = "<group>";
@@ -153,7 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A34BCA16FFF283006815EA /* main.m in Sources */,
-				46A34BD716FFF9FA006815EA /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
