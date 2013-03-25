@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46925B8C1700441400DDBAF3 /* prog19-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925B8B1700441400DDBAF3 /* prog19-2.m */; };
+		46925B8E1700443800DDBAF3 /* prog19-1.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925B8D1700443800DDBAF3 /* prog19-1.m */; };
+		46925BBA17004F6600DDBAF3 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BB917004F6600DDBAF3 /* AddressCard.m */; };
+		46925BC31700584C00DDBAF3 /* MyGizmoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BC21700584C00DDBAF3 /* MyGizmoClass.m */; };
+		46925BC617005BD600DDBAF3 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BC517005BD600DDBAF3 /* AddressBook.m */; };
+		46925BC917005E3700DDBAF3 /* prog19-6.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BC817005E3700DDBAF3 /* prog19-6.m */; };
+		46925BCC17005E8C00DDBAF3 /* prog19-8.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BCB17005E8C00DDBAF3 /* prog19-8.m */; };
+		46925BCF17005EA500DDBAF3 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BCE17005EA500DDBAF3 /* Foo.m */; };
+		46925BD217006D6200DDBAF3 /* prog19-9.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BD117006D6200DDBAF3 /* prog19-9.m */; };
+		46925BD517006D7900DDBAF3 /* prog19-11.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BD417006D7900DDBAF3 /* prog19-11.m */; };
 		46A34BC716FFF283006815EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A34BC616FFF283006815EA /* Foundation.framework */; };
 		46A34BCA16FFF283006815EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BC916FFF283006815EA /* main.m */; };
 		46A34BCE16FFF283006815EA /* ObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46A34BCD16FFF283006815EA /* ObjectiveC.1 */; };
-		46A34BDA16FFFC19006815EA /* prog1.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BD916FFFC19006815EA /* prog1.m */; };
-		46A34BDF17000145006815EA /* NSObject+prog19.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BDE17000145006815EA /* NSObject+prog19.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,15 +36,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		46925B8B1700441400DDBAF3 /* prog19-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-2.m"; path = "Chapter/prog19-2.m"; sourceTree = "<group>"; };
+		46925B8D1700443800DDBAF3 /* prog19-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-1.m"; path = "Chapter/prog19-1.m"; sourceTree = "<group>"; };
+		46925BB817004F6500DDBAF3 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressCard.h; path = Chapter/AddressCard.h; sourceTree = "<group>"; };
+		46925BB917004F6600DDBAF3 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressCard.m; path = Chapter/AddressCard.m; sourceTree = "<group>"; };
+		46925BC11700584C00DDBAF3 /* MyGizmoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyGizmoClass.h; path = DesignPatterns/MyGizmoClass.h; sourceTree = "<group>"; };
+		46925BC21700584C00DDBAF3 /* MyGizmoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyGizmoClass.m; path = DesignPatterns/MyGizmoClass.m; sourceTree = "<group>"; };
+		46925BC417005BD600DDBAF3 /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressBook.h; path = Chapter/AddressBook.h; sourceTree = "<group>"; };
+		46925BC517005BD600DDBAF3 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressBook.m; path = Chapter/AddressBook.m; sourceTree = "<group>"; };
+		46925BC817005E3700DDBAF3 /* prog19-6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-6.m"; path = "Chapter/prog19-6.m"; sourceTree = "<group>"; };
+		46925BCB17005E8C00DDBAF3 /* prog19-8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-8.m"; path = "Chapter/prog19-8.m"; sourceTree = "<group>"; };
+		46925BCD17005EA500DDBAF3 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Foo.h; path = Chapter/Foo.h; sourceTree = "<group>"; };
+		46925BCE17005EA500DDBAF3 /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foo.m; path = Chapter/Foo.m; sourceTree = "<group>"; };
+		46925BD117006D6200DDBAF3 /* prog19-9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-9.m"; path = "Chapter/prog19-9.m"; sourceTree = "<group>"; };
+		46925BD417006D7900DDBAF3 /* prog19-11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-11.m"; path = "Chapter/prog19-11.m"; sourceTree = "<group>"; };
 		46A34BC316FFF283006815EA /* ObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A34BC616FFF283006815EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46A34BC916FFF283006815EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46A34BCC16FFF283006815EA /* ObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
 		46A34BCD16FFF283006815EA /* ObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjectiveC.1; sourceTree = "<group>"; };
-		46A34BD816FFFC19006815EA /* prog1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prog1.h; sourceTree = "<group>"; };
-		46A34BD916FFFC19006815EA /* prog1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prog1.m; sourceTree = "<group>"; };
-		46A34BDD17000145006815EA /* NSObject+prog19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+prog19.h"; sourceTree = "<group>"; };
-		46A34BDE17000145006815EA /* NSObject+prog19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+prog19.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46925B89170043F500DDBAF3 /* Chapter */ = {
+			isa = PBXGroup;
+			children = (
+				46925BCD17005EA500DDBAF3 /* Foo.h */,
+				46925BCE17005EA500DDBAF3 /* Foo.m */,
+				46925BB817004F6500DDBAF3 /* AddressCard.h */,
+				46925BB917004F6600DDBAF3 /* AddressCard.m */,
+				46925BC417005BD600DDBAF3 /* AddressBook.h */,
+				46925BC517005BD600DDBAF3 /* AddressBook.m */,
+				46925B8D1700443800DDBAF3 /* prog19-1.m */,
+				46925B8B1700441400DDBAF3 /* prog19-2.m */,
+				46925BC817005E3700DDBAF3 /* prog19-6.m */,
+				46925BCB17005E8C00DDBAF3 /* prog19-8.m */,
+				46925BD117006D6200DDBAF3 /* prog19-9.m */,
+				46925BD417006D7900DDBAF3 /* prog19-11.m */,
+			);
+			name = Chapter;
+			sourceTree = "<group>";
+		};
+		46925BBE170057FB00DDBAF3 /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				46925BC11700584C00DDBAF3 /* MyGizmoClass.h */,
+				46925BC21700584C00DDBAF3 /* MyGizmoClass.m */,
+			);
+			name = DesignPatterns;
+			sourceTree = "<group>";
+		};
 		46A34BBA16FFF283006815EA = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +125,8 @@
 		46A34BC816FFF283006815EA /* ObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
-				46A34BD416FFF995006815EA /* Chapter */,
+				46925BBE170057FB00DDBAF3 /* DesignPatterns */,
+				46925B89170043F500DDBAF3 /* Chapter */,
 				46A34BC916FFF283006815EA /* main.m */,
 				46A34BCD16FFF283006815EA /* ObjectiveC.1 */,
 				46A34BCB16FFF283006815EA /* Supporting Files */,
@@ -93,17 +140,6 @@
 				46A34BCC16FFF283006815EA /* ObjectiveC-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		46A34BD416FFF995006815EA /* Chapter */ = {
-			isa = PBXGroup;
-			children = (
-				46A34BD816FFFC19006815EA /* prog1.h */,
-				46A34BD916FFFC19006815EA /* prog1.m */,
-				46A34BDD17000145006815EA /* NSObject+prog19.h */,
-				46A34BDE17000145006815EA /* NSObject+prog19.m */,
-			);
-			name = Chapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +194,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A34BCA16FFF283006815EA /* main.m in Sources */,
-				46A34BDA16FFFC19006815EA /* prog1.m in Sources */,
-				46A34BDF17000145006815EA /* NSObject+prog19.m in Sources */,
+				46925B8C1700441400DDBAF3 /* prog19-2.m in Sources */,
+				46925B8E1700443800DDBAF3 /* prog19-1.m in Sources */,
+				46925BBA17004F6600DDBAF3 /* AddressCard.m in Sources */,
+				46925BC31700584C00DDBAF3 /* MyGizmoClass.m in Sources */,
+				46925BC617005BD600DDBAF3 /* AddressBook.m in Sources */,
+				46925BC917005E3700DDBAF3 /* prog19-6.m in Sources */,
+				46925BCC17005E8C00DDBAF3 /* prog19-8.m in Sources */,
+				46925BCF17005EA500DDBAF3 /* Foo.m in Sources */,
+				46925BD217006D6200DDBAF3 /* prog19-9.m in Sources */,
+				46925BD517006D7900DDBAF3 /* prog19-11.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +304,7 @@
 				46A34BD316FFF283006815EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
