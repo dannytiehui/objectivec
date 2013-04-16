@@ -1,0 +1,31 @@
+//
+//  NewsTypeCollection.h
+//  FeOAClient
+//
+//  Created by yu weiming on 11-9-7.
+//  Copyright 2011 flyrise. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+@class NewsTypeItem;
+
+@interface NewsTypeCollection : NSObject {
+	NSMutableArray *newsTypeArray;
+}
+
+@property (nonatomic,readonly)NSMutableArray *newsTypeArray;
+
+- (NSUInteger) count;
+
+- (NewsTypeItem *)objectAtIndex:(NSUInteger)index;
+
+- (void)addNewsTypeItem:(NewsTypeItem *)aItem;
+
+//组包
+- (void)getProperties:(NSMutableArray *)properties;
+
+//解包
+- (void)setProperties:(NSArray *)properties;
+
+
+@end

@@ -1,0 +1,27 @@
+//
+//  TableRow.h
+//  FeOAClient
+//
+//  Created by yu weiming on 11-9-5.
+//  Copyright 2011 flyrise. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@class DataItem;
+
+@interface TableRow : NSObject {
+	NSMutableArray *dataItemArray;
+}
+
+- (void)addDataItem:(NSString *)aFieldName value:(NSString *)value;
+- (DataItem *)getDataItemByFieldName:(NSString *)aFieldName;
+
+//组包
+- (void)getProperties:(NSMutableArray *)properties;
+
+//解包
+- (void)setProperties:(NSArray *)properties;
+
+
+@end

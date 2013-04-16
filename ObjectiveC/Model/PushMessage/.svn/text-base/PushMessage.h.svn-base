@@ -1,0 +1,35 @@
+//
+//  PushMessage.h
+//  FeOAClient
+//
+//  Created by yu weiming on 11-10-25.
+//  Copyright 2011年 flyrise. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "NewsDetailsItem.h"
+
+typedef enum {
+    PushMessageTypeNews = 0,
+    PushMessageTypeAnnouncement,
+    PushMessageTypeCollaborationToDo,
+    PushMessageTypeCollaborationTrace
+}PushMessageType;
+
+
+@interface PushMessage : NSObject{
+    NSString *title;
+    NSString *messageID;
+    PushMessageType messageType;
+    NewsType newsType;
+}
+
+@property (nonatomic,copy)NSString *title;
+@property (nonatomic,copy)NSString *messageID;
+@property (nonatomic,assign)PushMessageType messageType;
+@property (nonatomic,assign)NewsType newsType;
+
+- (void)getProperties:(NSMutableDictionary *)properties;
+- (void)setProperties:(NSDictionary *)properties;
+
+@end

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fe/!svn/ver/1439/12FE5.5Client/FeOAClient/Shared/Packet/base
+END
+IqPacketFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fe/!svn/ver/1189/12FE5.5Client/FeOAClient/Shared/Packet/base/IqPacketFactory.h
+END
+SysCommonResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fe/!svn/ver/1189/12FE5.5Client/FeOAClient/Shared/Packet/base/SysCommonResponse.m
+END
+IqPacketFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fe/!svn/ver/1439/12FE5.5Client/FeOAClient/Shared/Packet/base/IqPacketFactory.m
+END
+JsonBaseObj.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fe/!svn/ver/1189/12FE5.5Client/FeOAClient/Shared/Packet/base/JsonBaseObj.h
+END
+IqPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fe/!svn/ver/1411/12FE5.5Client/FeOAClient/Shared/Packet/base/IqPacket.h
+END
+JsonBaseObj.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fe/!svn/ver/1418/12FE5.5Client/FeOAClient/Shared/Packet/base/JsonBaseObj.m
+END
+IqPacket.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fe/!svn/ver/1426/12FE5.5Client/FeOAClient/Shared/Packet/base/IqPacket.m
+END
+SysCommonResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fe/!svn/ver/1189/12FE5.5Client/FeOAClient/Shared/Packet/base/SysCommonResponse.h
+END

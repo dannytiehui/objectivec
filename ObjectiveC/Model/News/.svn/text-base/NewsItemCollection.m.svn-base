@@ -1,0 +1,68 @@
+//
+//  NewsItemCollection.m
+//  FeOAClient
+//
+//  Created by yu weiming on 11-9-30.
+//  Copyright 2011年 flyrise. All rights reserved.
+//
+
+#import "NewsItemCollection.h"
+#import "NewsDetailsItem.h"
+
+@implementation NewsItemCollection
+
+@synthesize newsItemArray;
+
+- (id)init {
+	if(self = [super init]){
+		newsItemArray = [[NSMutableArray alloc] init];
+	}
+	return self;
+}
+
+- (void)dealloc {
+	[newsItemArray release];
+	[super dealloc];
+}
+
+- (NSUInteger)count{
+    return [newsItemArray count];
+}
+
+- (NewsDetailsItem *)objectAtIndex:(NSUInteger)index{
+  return  [newsItemArray objectAtIndex:index];
+}
+
+- (void)addNewsItem:(NewsDetailsItem *)aItem{
+	if (aItem == nil) {
+		return;
+	}
+	
+	[newsItemArray addObject:aItem];
+}
+
+//组包
+- (void)getProperties:(NSMutableArray *)properties{
+	if (properties != nil) {
+		int count = [newsItemArray count];
+		NewsDetailsItem *newsItem = nil;
+		for (int i=0; i<count; i++) {
+			newsItem = [newsItemArray objectAtIndex:i];
+			NSMutableDictionary *dict = [[[NSMutableDictionary alloc] init]autorelease];
+			[properties addObject:dict];
+			[newsItem getProperties:dict];
+		}
+	}
+}
+
+//解包
+- (void)setProperties:(NSArray *)properties{
+	if (properties != nil) {
+		for (NSDictionary *rowProperty in properties) {
+			NewsDetailsItem *newsItem = [[[NewsDetailsItem alloc] init]autorelease];
+			[newsItem setProperties:rowProperty];
+			[newsItemArray addObject:newsItem];
+		}
+	}
+}
+@end

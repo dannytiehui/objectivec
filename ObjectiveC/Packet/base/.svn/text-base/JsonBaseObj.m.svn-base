@@ -1,0 +1,54 @@
+//
+//  JsonBaseObj.m
+//  FeOAClient
+//
+//  Created by yu weiming on 11-9-3.
+//  Copyright 2011 flyrise. All rights reserved.
+//
+
+#import "JsonBaseObj.h"
+#import "JSON.h"
+
+@implementation JsonBaseObj
+
+// public method
+- (void)fromJSON:(NSString *)json {
+	SBJsonParser *jsonParser = [SBJsonParser new];
+	NSMutableDictionary *properties = (NSMutableDictionary *)[jsonParser objectWithString:json error:NULL];
+	[self setProperties:properties];
+	[jsonParser release];
+}
+
+//public method
+- (NSString *)toJSON {
+	NSMutableDictionary *payload = [[[NSMutableDictionary alloc] init] autorelease];
+//	[payload setObject:[[[NSMutableDictionary alloc] init]autorelease] forKey:@"iq"];
+	//[self getPreExtensions:payload];
+	[self getProperties:payload];
+	//[self getPostExtensions:payload];
+	
+	SBJsonWriter *writer = [SBJsonWriter new];
+	
+	//只有Debug的时候为了可读性，需要将这个设为YES
+	writer.humanReadable = YES;
+	
+	NSString *json = [writer stringWithObject:payload];
+	
+	[writer release];
+	
+	return json;
+}
+
+// 从packet对象中,读取元素值到json字典中--组包
+- (void)getProperties:(NSMutableDictionary *)properties {
+	//子类实现
+}
+
+
+//从json字典对象中,提取出对象元素值,并赋到packet对象中--解包
+- (void)setProperties:(NSDictionary *)properties {	
+	//子类实现
+}
+
+
+@end

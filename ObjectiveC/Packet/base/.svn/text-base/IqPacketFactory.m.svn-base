@@ -1,0 +1,152 @@
+//
+//  IqPacketFactory.m
+//  FeOAClient
+//
+//  Created by yu weiming on 11-9-5.
+//  Copyright 2011 flyrise. All rights reserved.
+//
+
+#import "IqPacketFactory.h"
+#import "JSON.h"
+#import "CommonListResponse.h"
+
+@interface IqPacketFactory(private)
+
+- (void)_initRequestPacketCollection;
+- (void)_initResponsePacketCollection;
+
+@end
+
+
+@implementation IqPacketFactory
+
+
++ (IqPacketFactory *) getInstance {
+	static IqPacketFactory *instance;
+	
+	if (instance == nil) {
+		instance = [[IqPacketFactory alloc] init];
+	}
+	
+	return instance;
+}
+
+
+- (id)init {
+	if (self = [super init]) {
+		requestPacketArray = [[NSMutableArray alloc] init];
+		responsePacketArray = [[NSMutableArray alloc] init];
+		[self _initRequestPacketCollection];
+		[self _initResponsePacketCollection];
+	}
+	return self;
+}
+
+- (void)dealloc {
+	[requestPacketArray release];
+	[responsePacketArray release];
+	[super dealloc];
+}
+
+- (void)_initRequestPacketCollection{
+	[requestPacketArray addObject:@"LoginRequest"];
+	[requestPacketArray addObject:@"HomePageRequest"];
+	[requestPacketArray addObject:@"LogoutRequest"];
+    [requestPacketArray addObject:@"ToDoListRequest"];
+    [requestPacketArray addObject:@"DoneListRequest"];
+    [requestPacketArray addObject:@"ToSendListRequest"];
+    [requestPacketArray addObject:@"SendedListRequest"];
+    [requestPacketArray addObject:@"TraceListRequest"];
+	[requestPacketArray addObject:@"CollaborationDetailsRequest"];
+    [requestPacketArray addObject:@"ReplyDetailsRequest"];
+    [requestPacketArray addObject:@"ReplyYijianRequest"];
+    [requestPacketArray addObject:@"SendDoRequest"];
+    [requestPacketArray addObject:@"SendBackRequest"];
+    [requestPacketArray addObject:@"TemporaryToDoRequest"];
+    [requestPacketArray addObject:@"NodeListRequest"];
+    [requestPacketArray addObject:@"SendCollaberationRequest"];
+    [requestPacketArray addObject:@"AddNodesRequest"];
+    [requestPacketArray addObject:@"AddressBookRequest"];
+    [requestPacketArray addObject:@"CollaborationListRequest"];
+    [requestPacketArray addObject:@"NewsTypeListRequest"];
+    [requestPacketArray addObject:@"NewsListRequest"];
+}
+
+- (void)_initResponsePacketCollection{
+	[responsePacketArray addObject:@"LoginResponse"];
+	[responsePacketArray addObject:@"HomePageResponse"];
+	[responsePacketArray addObject:@"LogoutResponse"];
+	[responsePacketArray addObject:@"ToDoListResponse"];
+    [responsePacketArray addObject:@"DoneListResponse"];
+    [responsePacketArray addObject:@"ToSendListResponse"];
+    [responsePacketArray addObject:@"SendedListResponse"];
+    [responsePacketArray addObject:@"TraceListResponse"];
+    [responsePacketArray addObject:@"CollaborationDetailsResponse"];
+    [responsePacketArray addObject:@"ReplyDetailsResponse"];
+    [responsePacketArray addObject:@"ReplyYijianResponse"];
+    [responsePacketArray addObject:@"NodeListResponse"];
+    [responsePacketArray addObject:@"AddressBookResponse"];
+    [responsePacketArray addObject:@"ReplyResponse"];
+    [responsePacketArray addObject:@"AddNodesResponse"];
+    [responsePacketArray addObject:@"SendDoResponse"];
+    [responsePacketArray addObject:@"SendBackResponse"];
+    [responsePacketArray addObject:@"TemporaryToDoResponse"];
+    [responsePacketArray addObject:@"SendCollaberationResponse"];
+    [responsePacketArray addObject:@"ExceptionResponse"];
+    [responsePacketArray addObject:@"PushMessageResponse"];
+    [responsePacketArray addObject:@"CollaborationListResponse"];
+    [responsePacketArray addObject:@"NewsTypeListResponse"];
+    [responsePacketArray addObject:@"NewsListResponse"];
+    
+}
+
+- (BOOL)_containsResponsePacket:(NSString *)packetName{
+	BOOL result = NO;
+	if ([responsePacketArray containsObject:packetName]) {
+		result = YES;
+	}
+	
+	return result;
+}
+
+
+
+- (IqPacket *)getRequestPacketByName:(NSString *)aName{
+	
+	if (![requestPacketArray containsObject:aName]) {
+		return nil;
+	}
+	
+	id object = [[[NSClassFromString(aName) alloc] init] autorelease];
+	if (object != nil && [object isKindOfClass:[IqPacket class]]) {
+		return object;
+	}
+	return nil;
+}
+
+- (IqPacket *)parseReponsePacketByData:(NSString *)aData packetName:aName{
+	id result = nil;
+	
+	if (![self _containsResponsePacket:aName]) {
+		return nil;
+	}
+    
+	SBJsonParser *jsonParser = [SBJsonParser new];
+	NSMutableDictionary *properties = (NSMutableDictionary *)[jsonParser objectWithString:aData error:NULL];
+	[jsonParser release];
+	
+	result = [[[NSClassFromString(aName) alloc] init] autorelease];
+	if (result != nil && [result isKindOfClass:[IqPacket class]]) {
+		[result setProperties:properties];
+        if ([result isKindOfClass:[CommonListResponse class]]) {
+            if ([result isNeedTranslate]) {
+                [result translateDataTableToEntityList];
+            }
+        }
+		return result;
+	}
+	
+	return nil;
+}
+	
+@end

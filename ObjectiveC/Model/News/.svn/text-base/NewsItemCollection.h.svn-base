@@ -1,0 +1,31 @@
+//
+//  NewsItemCollection.h
+//  FeOAClient
+//
+//  Created by yu weiming on 11-9-30.
+//  Copyright 2011年 flyrise. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+@class NewsDetailsItem;
+
+@interface NewsItemCollection : NSObject{
+    NSMutableArray *newsItemArray;
+}
+
+@property (nonatomic,readonly)NSMutableArray *newsItemArray;
+
+
+- (NSUInteger)count;
+
+- (NewsDetailsItem *)objectAtIndex:(NSUInteger)index;
+
+- (void)addNewsItem:(NewsDetailsItem *)aItem;
+
+//组包
+- (void)getProperties:(NSMutableArray *)properties;
+
+//解包
+- (void)setProperties:(NSArray *)properties;
+
+@end

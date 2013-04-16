@@ -1,0 +1,30 @@
+//
+//  NewsTypeItem.h
+//  FeOAClient
+//
+//  Created by yu weiming on 11-9-7.
+//  Copyright 2011 flyrise. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "DataTable.h"
+
+@interface NewsTypeItem : NSObject {
+	NSString *typeID;
+	NSString *name;
+	NSString *nums;
+//	DataTable *dataTable;
+}
+
+@property (nonatomic,retain)NSString *typeID;
+@property (nonatomic,retain)NSString *name;
+@property (nonatomic,retain)NSString *nums;
+//@property (nonatomic,retain)DataTable *dataTable;
+
+//组包
+- (void)getProperties:(NSMutableDictionary *)properties;
+
+//解包
+- (void)setProperties:(NSDictionary *)properties;
+
+@end

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/fe/!svn/ver/1442/12FE5.5Client/FeOAClient/Shared/Model/News
+END
+NewsTypeCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fe/!svn/ver/1295/12FE5.5Client/FeOAClient/Shared/Model/News/NewsTypeCollection.h
+END
+NewsItemCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fe/!svn/ver/1394/12FE5.5Client/FeOAClient/Shared/Model/News/NewsItemCollection.m
+END
+NewsTypeItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fe/!svn/ver/1283/12FE5.5Client/FeOAClient/Shared/Model/News/NewsTypeItem.h
+END
+NewsTypeCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fe/!svn/ver/1295/12FE5.5Client/FeOAClient/Shared/Model/News/NewsTypeCollection.m
+END
+NewsDetailsItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fe/!svn/ver/1442/12FE5.5Client/FeOAClient/Shared/Model/News/NewsDetailsItem.h
+END
+NewsTypeItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fe/!svn/ver/1283/12FE5.5Client/FeOAClient/Shared/Model/News/NewsTypeItem.m
+END
+NewsDetailsItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fe/!svn/ver/1442/12FE5.5Client/FeOAClient/Shared/Model/News/NewsDetailsItem.m
+END
+NewsItemCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fe/!svn/ver/1295/12FE5.5Client/FeOAClient/Shared/Model/News/NewsItemCollection.h
+END
