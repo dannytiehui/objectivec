@@ -8,31 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#warning 把代码拷贝到main.m文件, 然后把"main_digui"改为"main"即可运行
-int main_digui(int argc, const char * argv[])
-{
-    
-    @autoreleasepool {
-        
-        int number = Foo(30);
-        NSLog(@"%d",number);
-        
-        int jc = factorial(5);
-        NSLog(@"%d",jc);
-        
-        int jc2 = jiecheng(5);
-        NSLog(@"%d",jc2);
-        
-        int h = hoop(5);
-        NSLog(@"%d",h);
-        
-        int h2 = hoop2(5);
-        NSLog(@"%d",h2);
-        
-    }
-    return 0;
-}
-
 // 递归算法。例：一列数的规则如下: 1、1、2、3、5、8、13、21、34...... 求第30位数是多少。
 int Foo(int i)
 {
@@ -92,4 +67,29 @@ int hoop2(int n)
         }
     }
     return m;
+}
+
+#warning 把代码拷贝到main.m文件, 然后把"main_digui"改为"main"即可运行
+int main_digui(int argc, const char * argv[])
+{
+    
+    @autoreleasepool {
+        
+        int number = Foo(30);
+        NSLog(@"%d",number);
+        
+        int jc = factorial(5);
+        NSLog(@"%d",jc);
+        
+        int jc2 = jiecheng(5);
+        NSLog(@"%d",jc2);
+        
+        int h = hoop(5);
+        NSLog(@"%d",h);
+        
+        int h2 = hoop2(5);
+        NSLog(@"%d",h2);
+        
+    }
+    return 0;
 }

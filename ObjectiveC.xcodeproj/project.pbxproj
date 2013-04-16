@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4629D0591705A5800094C00D /* prog19-0.m in Sources */ = {isa = PBXBuildFile; fileRef = 4629D0581705A5800094C00D /* prog19-0.m */; };
 		46925B8C1700441400DDBAF3 /* prog19-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925B8B1700441400DDBAF3 /* prog19-2.m */; };
 		46925B8E1700443800DDBAF3 /* prog19-1.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925B8D1700443800DDBAF3 /* prog19-1.m */; };
 		46925BBA17004F6600DDBAF3 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BB917004F6600DDBAF3 /* AddressCard.m */; };
@@ -18,6 +19,38 @@
 		46925BD217006D6200DDBAF3 /* prog19-9.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BD117006D6200DDBAF3 /* prog19-9.m */; };
 		46925BD517006D7900DDBAF3 /* prog19-11.m in Sources */ = {isa = PBXBuildFile; fileRef = 46925BD417006D7900DDBAF3 /* prog19-11.m */; };
 		4692CD9C17030858009B852E /* Digui.m in Sources */ = {isa = PBXBuildFile; fileRef = 4692CD9B17030858009B852E /* Digui.m */; };
+		469313BC171BD56100E28658 /* AIIURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 469313BB171BD56100E28658 /* AIIURLRequest.m */; };
+		4695EFDC171CFCD600A447A1 /* UserMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695EFD9171CFCD600A447A1 /* UserMutableArray.m */; };
+		4695EFDD171CFCD600A447A1 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695EFDB171CFCD600A447A1 /* UserObject.m */; };
+		4695F020171D005000A447A1 /* DataField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F015171D005000A447A1 /* DataField.m */; };
+		4695F021171D005000A447A1 /* DataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F017171D005000A447A1 /* DataItem.m */; };
+		4695F022171D005000A447A1 /* DataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F019171D005000A447A1 /* DataTable.m */; };
+		4695F023171D005000A447A1 /* TableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F01B171D005000A447A1 /* TableRow.m */; };
+		4695F024171D005000A447A1 /* TableRowCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F01D171D005000A447A1 /* TableRowCollection.m */; };
+		4695F025171D005000A447A1 /* TableSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F01F171D005000A447A1 /* TableSchema.m */; };
+		4695F02E171D056F00A447A1 /* AttachmentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F02B171D056E00A447A1 /* AttachmentCollection.m */; };
+		4695F02F171D056F00A447A1 /* AttachmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F02D171D056F00A447A1 /* AttachmentItem.m */; };
+		4695F032171D0DC600A447A1 /* NSMutableArray+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F031171D0DC600A447A1 /* NSMutableArray+User.m */; };
+		4695F052171D250C00A447A1 /* IqPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F035171D250C00A447A1 /* IqPacket.m */; };
+		4695F053171D250C00A447A1 /* IqPacketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F037171D250C00A447A1 /* IqPacketFactory.m */; };
+		4695F054171D250C00A447A1 /* JsonBaseObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F039171D250C00A447A1 /* JsonBaseObj.m */; };
+		4695F055171D250C00A447A1 /* SysCommonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F03B171D250C00A447A1 /* SysCommonResponse.m */; };
+		4695F058171D250C00A447A1 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F041171D250C00A447A1 /* LoginRequest.m */; };
+		4695F059171D250C00A447A1 /* LoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F043171D250C00A447A1 /* LoginResponse.m */; };
+		4695F05A171D250C00A447A1 /* LogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F045171D250C00A447A1 /* LogoutRequest.m */; };
+		4695F05B171D250C00A447A1 /* LogoutResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F047171D250C00A447A1 /* LogoutResponse.m */; };
+		4695F05C171D250C00A447A1 /* NewsDetailsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F049171D250C00A447A1 /* NewsDetailsRequest.m */; };
+		4695F05D171D250C00A447A1 /* NewsDetailsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F04B171D250C00A447A1 /* NewsDetailsResponse.m */; };
+		4695F05E171D250C00A447A1 /* NewsListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F04D171D250C00A447A1 /* NewsListRequest.m */; };
+		4695F05F171D250C00A447A1 /* NewsListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F04F171D250C00A447A1 /* NewsListResponse.m */; };
+		4695F060171D250C00A447A1 /* PushMessageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F051171D250C00A447A1 /* PushMessageResponse.m */; };
+		4695F065171D2D8100A447A1 /* ListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F062171D2D7A00A447A1 /* ListRequest.m */; };
+		4695F066171D2D8100A447A1 /* ListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F064171D2D7E00A447A1 /* ListResponse.m */; };
+		4695F070171D3D2A00A447A1 /* NewsDetailsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F069171D3D2A00A447A1 /* NewsDetailsItem.m */; };
+		4695F071171D3D2A00A447A1 /* NewsItemCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F06B171D3D2A00A447A1 /* NewsItemCollection.m */; };
+		4695F072171D3D2A00A447A1 /* NewsTypeCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F06D171D3D2A00A447A1 /* NewsTypeCollection.m */; };
+		4695F073171D3D2A00A447A1 /* NewsTypeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F06F171D3D2A00A447A1 /* NewsTypeItem.m */; };
+		4695F077171D3D5E00A447A1 /* PushMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F076171D3D5E00A447A1 /* PushMessage.m */; };
 		46A34BC716FFF283006815EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A34BC616FFF283006815EA /* Foundation.framework */; };
 		46A34BCA16FFF283006815EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A34BC916FFF283006815EA /* main.m */; };
 		46A34BCE16FFF283006815EA /* ObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46A34BCD16FFF283006815EA /* ObjectiveC.1 */; };
@@ -37,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4629D0581705A5800094C00D /* prog19-0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-0.m"; path = "Chapter/prog19-0.m"; sourceTree = "<group>"; };
 		46925B8B1700441400DDBAF3 /* prog19-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-2.m"; path = "Chapter/prog19-2.m"; sourceTree = "<group>"; };
 		46925B8D1700443800DDBAF3 /* prog19-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-1.m"; path = "Chapter/prog19-1.m"; sourceTree = "<group>"; };
 		46925BB817004F6500DDBAF3 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressCard.h; path = Chapter/AddressCard.h; sourceTree = "<group>"; };
@@ -52,6 +86,70 @@
 		46925BD117006D6200DDBAF3 /* prog19-9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-9.m"; path = "Chapter/prog19-9.m"; sourceTree = "<group>"; };
 		46925BD417006D7900DDBAF3 /* prog19-11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "prog19-11.m"; path = "Chapter/prog19-11.m"; sourceTree = "<group>"; };
 		4692CD9B17030858009B852E /* Digui.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Digui.m; path = Arithmetic/Digui.m; sourceTree = "<group>"; };
+		469313BA171BD56100E28658 /* AIIURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIIURLRequest.h; sourceTree = "<group>"; };
+		469313BB171BD56100E28658 /* AIIURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIIURLRequest.m; sourceTree = "<group>"; };
+		4695EFD8171CFCD600A447A1 /* UserMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserMutableArray.h; sourceTree = "<group>"; };
+		4695EFD9171CFCD600A447A1 /* UserMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserMutableArray.m; sourceTree = "<group>"; };
+		4695EFDA171CFCD600A447A1 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
+		4695EFDB171CFCD600A447A1 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
+		4695F014171D005000A447A1 /* DataField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataField.h; sourceTree = "<group>"; };
+		4695F015171D005000A447A1 /* DataField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataField.m; sourceTree = "<group>"; };
+		4695F016171D005000A447A1 /* DataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataItem.h; sourceTree = "<group>"; };
+		4695F017171D005000A447A1 /* DataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataItem.m; sourceTree = "<group>"; };
+		4695F018171D005000A447A1 /* DataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTable.h; sourceTree = "<group>"; };
+		4695F019171D005000A447A1 /* DataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTable.m; sourceTree = "<group>"; };
+		4695F01A171D005000A447A1 /* TableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRow.h; sourceTree = "<group>"; };
+		4695F01B171D005000A447A1 /* TableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRow.m; sourceTree = "<group>"; };
+		4695F01C171D005000A447A1 /* TableRowCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRowCollection.h; sourceTree = "<group>"; };
+		4695F01D171D005000A447A1 /* TableRowCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRowCollection.m; sourceTree = "<group>"; };
+		4695F01E171D005000A447A1 /* TableSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSchema.h; sourceTree = "<group>"; };
+		4695F01F171D005000A447A1 /* TableSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSchema.m; sourceTree = "<group>"; };
+		4695F02A171D056E00A447A1 /* AttachmentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentCollection.h; sourceTree = "<group>"; };
+		4695F02B171D056E00A447A1 /* AttachmentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentCollection.m; sourceTree = "<group>"; };
+		4695F02C171D056E00A447A1 /* AttachmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentItem.h; sourceTree = "<group>"; };
+		4695F02D171D056F00A447A1 /* AttachmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentItem.m; sourceTree = "<group>"; };
+		4695F030171D0DC600A447A1 /* NSMutableArray+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+User.h"; sourceTree = "<group>"; };
+		4695F031171D0DC600A447A1 /* NSMutableArray+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+User.m"; sourceTree = "<group>"; };
+		4695F034171D250C00A447A1 /* IqPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IqPacket.h; sourceTree = "<group>"; };
+		4695F035171D250C00A447A1 /* IqPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IqPacket.m; sourceTree = "<group>"; };
+		4695F036171D250C00A447A1 /* IqPacketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IqPacketFactory.h; sourceTree = "<group>"; };
+		4695F037171D250C00A447A1 /* IqPacketFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IqPacketFactory.m; sourceTree = "<group>"; };
+		4695F038171D250C00A447A1 /* JsonBaseObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBaseObj.h; sourceTree = "<group>"; };
+		4695F039171D250C00A447A1 /* JsonBaseObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonBaseObj.m; sourceTree = "<group>"; };
+		4695F03A171D250C00A447A1 /* SysCommonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysCommonResponse.h; sourceTree = "<group>"; };
+		4695F03B171D250C00A447A1 /* SysCommonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysCommonResponse.m; sourceTree = "<group>"; };
+		4695F040171D250C00A447A1 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		4695F041171D250C00A447A1 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		4695F042171D250C00A447A1 /* LoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginResponse.h; sourceTree = "<group>"; };
+		4695F043171D250C00A447A1 /* LoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginResponse.m; sourceTree = "<group>"; };
+		4695F044171D250C00A447A1 /* LogoutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutRequest.h; sourceTree = "<group>"; };
+		4695F045171D250C00A447A1 /* LogoutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutRequest.m; sourceTree = "<group>"; };
+		4695F046171D250C00A447A1 /* LogoutResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutResponse.h; sourceTree = "<group>"; };
+		4695F047171D250C00A447A1 /* LogoutResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutResponse.m; sourceTree = "<group>"; };
+		4695F048171D250C00A447A1 /* NewsDetailsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailsRequest.h; sourceTree = "<group>"; };
+		4695F049171D250C00A447A1 /* NewsDetailsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailsRequest.m; sourceTree = "<group>"; };
+		4695F04A171D250C00A447A1 /* NewsDetailsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailsResponse.h; sourceTree = "<group>"; };
+		4695F04B171D250C00A447A1 /* NewsDetailsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailsResponse.m; sourceTree = "<group>"; };
+		4695F04C171D250C00A447A1 /* NewsListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListRequest.h; sourceTree = "<group>"; };
+		4695F04D171D250C00A447A1 /* NewsListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListRequest.m; sourceTree = "<group>"; };
+		4695F04E171D250C00A447A1 /* NewsListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListResponse.h; sourceTree = "<group>"; };
+		4695F04F171D250C00A447A1 /* NewsListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListResponse.m; sourceTree = "<group>"; };
+		4695F050171D250C00A447A1 /* PushMessageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushMessageResponse.h; sourceTree = "<group>"; };
+		4695F051171D250C00A447A1 /* PushMessageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushMessageResponse.m; sourceTree = "<group>"; };
+		4695F061171D2D7A00A447A1 /* ListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListRequest.h; sourceTree = "<group>"; };
+		4695F062171D2D7A00A447A1 /* ListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListRequest.m; sourceTree = "<group>"; };
+		4695F063171D2D7C00A447A1 /* ListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListResponse.h; sourceTree = "<group>"; };
+		4695F064171D2D7E00A447A1 /* ListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListResponse.m; sourceTree = "<group>"; };
+		4695F068171D3D2A00A447A1 /* NewsDetailsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailsItem.h; sourceTree = "<group>"; };
+		4695F069171D3D2A00A447A1 /* NewsDetailsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailsItem.m; sourceTree = "<group>"; };
+		4695F06A171D3D2A00A447A1 /* NewsItemCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItemCollection.h; sourceTree = "<group>"; };
+		4695F06B171D3D2A00A447A1 /* NewsItemCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItemCollection.m; sourceTree = "<group>"; };
+		4695F06C171D3D2A00A447A1 /* NewsTypeCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTypeCollection.h; sourceTree = "<group>"; };
+		4695F06D171D3D2A00A447A1 /* NewsTypeCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTypeCollection.m; sourceTree = "<group>"; };
+		4695F06E171D3D2A00A447A1 /* NewsTypeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTypeItem.h; sourceTree = "<group>"; };
+		4695F06F171D3D2A00A447A1 /* NewsTypeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTypeItem.m; sourceTree = "<group>"; };
+		4695F075171D3D5E00A447A1 /* PushMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushMessage.h; sourceTree = "<group>"; };
+		4695F076171D3D5E00A447A1 /* PushMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushMessage.m; sourceTree = "<group>"; };
 		46A34BC316FFF283006815EA /* ObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A34BC616FFF283006815EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46A34BC916FFF283006815EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,6 +178,7 @@
 				46925BB917004F6600DDBAF3 /* AddressCard.m */,
 				46925BC417005BD600DDBAF3 /* AddressBook.h */,
 				46925BC517005BD600DDBAF3 /* AddressBook.m */,
+				4629D0581705A5800094C00D /* prog19-0.m */,
 				46925B8D1700443800DDBAF3 /* prog19-1.m */,
 				46925B8B1700441400DDBAF3 /* prog19-2.m */,
 				46925BC817005E3700DDBAF3 /* prog19-6.m */,
@@ -105,6 +204,123 @@
 				4692CD9B17030858009B852E /* Digui.m */,
 			);
 			name = Arithmetic;
+			sourceTree = "<group>";
+		};
+		469313B9171BD51800E28658 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				469313BA171BD56100E28658 /* AIIURLRequest.h */,
+				469313BB171BD56100E28658 /* AIIURLRequest.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		4695EFD7171CFCA300A447A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4695F074171D3D5E00A447A1 /* PushMessage */,
+				4695F067171D3D2900A447A1 /* News */,
+				4695F013171D005000A447A1 /* DataForm */,
+				4695EFDA171CFCD600A447A1 /* UserObject.h */,
+				4695EFDB171CFCD600A447A1 /* UserObject.m */,
+				4695EFD8171CFCD600A447A1 /* UserMutableArray.h */,
+				4695EFD9171CFCD600A447A1 /* UserMutableArray.m */,
+				4695F02C171D056E00A447A1 /* AttachmentItem.h */,
+				4695F02D171D056F00A447A1 /* AttachmentItem.m */,
+				4695F02A171D056E00A447A1 /* AttachmentCollection.h */,
+				4695F02B171D056E00A447A1 /* AttachmentCollection.m */,
+				4695F030171D0DC600A447A1 /* NSMutableArray+User.h */,
+				4695F031171D0DC600A447A1 /* NSMutableArray+User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4695EFE1171CFFB400A447A1 /* Packet */ = {
+			isa = PBXGroup;
+			children = (
+				4695F033171D250C00A447A1 /* base */,
+				4695F040171D250C00A447A1 /* LoginRequest.h */,
+				4695F041171D250C00A447A1 /* LoginRequest.m */,
+				4695F042171D250C00A447A1 /* LoginResponse.h */,
+				4695F043171D250C00A447A1 /* LoginResponse.m */,
+				4695F044171D250C00A447A1 /* LogoutRequest.h */,
+				4695F045171D250C00A447A1 /* LogoutRequest.m */,
+				4695F046171D250C00A447A1 /* LogoutResponse.h */,
+				4695F047171D250C00A447A1 /* LogoutResponse.m */,
+				4695F048171D250C00A447A1 /* NewsDetailsRequest.h */,
+				4695F049171D250C00A447A1 /* NewsDetailsRequest.m */,
+				4695F04A171D250C00A447A1 /* NewsDetailsResponse.h */,
+				4695F04B171D250C00A447A1 /* NewsDetailsResponse.m */,
+				4695F04C171D250C00A447A1 /* NewsListRequest.h */,
+				4695F04D171D250C00A447A1 /* NewsListRequest.m */,
+				4695F04E171D250C00A447A1 /* NewsListResponse.h */,
+				4695F04F171D250C00A447A1 /* NewsListResponse.m */,
+				4695F050171D250C00A447A1 /* PushMessageResponse.h */,
+				4695F051171D250C00A447A1 /* PushMessageResponse.m */,
+			);
+			path = Packet;
+			sourceTree = "<group>";
+		};
+		4695F013171D005000A447A1 /* DataForm */ = {
+			isa = PBXGroup;
+			children = (
+				4695F014171D005000A447A1 /* DataField.h */,
+				4695F015171D005000A447A1 /* DataField.m */,
+				4695F016171D005000A447A1 /* DataItem.h */,
+				4695F017171D005000A447A1 /* DataItem.m */,
+				4695F018171D005000A447A1 /* DataTable.h */,
+				4695F019171D005000A447A1 /* DataTable.m */,
+				4695F01A171D005000A447A1 /* TableRow.h */,
+				4695F01B171D005000A447A1 /* TableRow.m */,
+				4695F01C171D005000A447A1 /* TableRowCollection.h */,
+				4695F01D171D005000A447A1 /* TableRowCollection.m */,
+				4695F01E171D005000A447A1 /* TableSchema.h */,
+				4695F01F171D005000A447A1 /* TableSchema.m */,
+			);
+			path = DataForm;
+			sourceTree = "<group>";
+		};
+		4695F033171D250C00A447A1 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				4695F034171D250C00A447A1 /* IqPacket.h */,
+				4695F035171D250C00A447A1 /* IqPacket.m */,
+				4695F036171D250C00A447A1 /* IqPacketFactory.h */,
+				4695F037171D250C00A447A1 /* IqPacketFactory.m */,
+				4695F038171D250C00A447A1 /* JsonBaseObj.h */,
+				4695F039171D250C00A447A1 /* JsonBaseObj.m */,
+				4695F061171D2D7A00A447A1 /* ListRequest.h */,
+				4695F062171D2D7A00A447A1 /* ListRequest.m */,
+				4695F063171D2D7C00A447A1 /* ListResponse.h */,
+				4695F064171D2D7E00A447A1 /* ListResponse.m */,
+				4695F03A171D250C00A447A1 /* SysCommonResponse.h */,
+				4695F03B171D250C00A447A1 /* SysCommonResponse.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		4695F067171D3D2900A447A1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				4695F068171D3D2A00A447A1 /* NewsDetailsItem.h */,
+				4695F069171D3D2A00A447A1 /* NewsDetailsItem.m */,
+				4695F06A171D3D2A00A447A1 /* NewsItemCollection.h */,
+				4695F06B171D3D2A00A447A1 /* NewsItemCollection.m */,
+				4695F06C171D3D2A00A447A1 /* NewsTypeCollection.h */,
+				4695F06D171D3D2A00A447A1 /* NewsTypeCollection.m */,
+				4695F06E171D3D2A00A447A1 /* NewsTypeItem.h */,
+				4695F06F171D3D2A00A447A1 /* NewsTypeItem.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		4695F074171D3D5E00A447A1 /* PushMessage */ = {
+			isa = PBXGroup;
+			children = (
+				4695F075171D3D5E00A447A1 /* PushMessage.h */,
+				4695F076171D3D5E00A447A1 /* PushMessage.m */,
+			);
+			path = PushMessage;
 			sourceTree = "<group>";
 		};
 		46A34BBA16FFF283006815EA = {
@@ -135,6 +351,9 @@
 		46A34BC816FFF283006815EA /* ObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				4695EFE1171CFFB400A447A1 /* Packet */,
+				4695EFD7171CFCA300A447A1 /* Model */,
+				469313B9171BD51800E28658 /* Http */,
 				4692CD93170305AD009B852E /* Arithmetic */,
 				46925BBE170057FB00DDBAF3 /* DesignPatterns */,
 				46925B89170043F500DDBAF3 /* Chapter */,
@@ -180,7 +399,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = zhnews;
+				ORGANIZATIONNAME = aiitec;
 			};
 			buildConfigurationList = 46A34BBE16FFF283006815EA /* Build configuration list for PBXProject "ObjectiveC" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -216,6 +435,39 @@
 				46925BD217006D6200DDBAF3 /* prog19-9.m in Sources */,
 				46925BD517006D7900DDBAF3 /* prog19-11.m in Sources */,
 				4692CD9C17030858009B852E /* Digui.m in Sources */,
+				4629D0591705A5800094C00D /* prog19-0.m in Sources */,
+				469313BC171BD56100E28658 /* AIIURLRequest.m in Sources */,
+				4695EFDC171CFCD600A447A1 /* UserMutableArray.m in Sources */,
+				4695EFDD171CFCD600A447A1 /* UserObject.m in Sources */,
+				4695F020171D005000A447A1 /* DataField.m in Sources */,
+				4695F021171D005000A447A1 /* DataItem.m in Sources */,
+				4695F022171D005000A447A1 /* DataTable.m in Sources */,
+				4695F023171D005000A447A1 /* TableRow.m in Sources */,
+				4695F024171D005000A447A1 /* TableRowCollection.m in Sources */,
+				4695F025171D005000A447A1 /* TableSchema.m in Sources */,
+				4695F02E171D056F00A447A1 /* AttachmentCollection.m in Sources */,
+				4695F02F171D056F00A447A1 /* AttachmentItem.m in Sources */,
+				4695F032171D0DC600A447A1 /* NSMutableArray+User.m in Sources */,
+				4695F052171D250C00A447A1 /* IqPacket.m in Sources */,
+				4695F053171D250C00A447A1 /* IqPacketFactory.m in Sources */,
+				4695F054171D250C00A447A1 /* JsonBaseObj.m in Sources */,
+				4695F055171D250C00A447A1 /* SysCommonResponse.m in Sources */,
+				4695F058171D250C00A447A1 /* LoginRequest.m in Sources */,
+				4695F059171D250C00A447A1 /* LoginResponse.m in Sources */,
+				4695F05A171D250C00A447A1 /* LogoutRequest.m in Sources */,
+				4695F05B171D250C00A447A1 /* LogoutResponse.m in Sources */,
+				4695F05C171D250C00A447A1 /* NewsDetailsRequest.m in Sources */,
+				4695F05D171D250C00A447A1 /* NewsDetailsResponse.m in Sources */,
+				4695F05E171D250C00A447A1 /* NewsListRequest.m in Sources */,
+				4695F05F171D250C00A447A1 /* NewsListResponse.m in Sources */,
+				4695F060171D250C00A447A1 /* PushMessageResponse.m in Sources */,
+				4695F065171D2D8100A447A1 /* ListRequest.m in Sources */,
+				4695F066171D2D8100A447A1 /* ListResponse.m in Sources */,
+				4695F070171D3D2A00A447A1 /* NewsDetailsItem.m in Sources */,
+				4695F071171D3D2A00A447A1 /* NewsItemCollection.m in Sources */,
+				4695F072171D3D2A00A447A1 /* NewsTypeCollection.m in Sources */,
+				4695F073171D3D2A00A447A1 /* NewsTypeItem.m in Sources */,
+				4695F077171D3D5E00A447A1 /* PushMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

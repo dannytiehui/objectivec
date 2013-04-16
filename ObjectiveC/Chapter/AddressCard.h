@@ -22,6 +22,6 @@
 
 //Additional methods for NSCopyingp protocol
 -(AddressCard *) copyWithZone: (NSZone *) zone;
--(void) retainName: (NSString *) theName andEmail: ( NSString *) theEmail;
+//-(void) retainName: (NSString *) theName andEmail: ( NSString *) theEmail;
 
 @end
